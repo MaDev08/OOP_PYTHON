@@ -14,3 +14,4 @@ pessoa1 = Pessoa("Michael", 45) #Realizei uma instância, onde criei o objeto pe
 print(pessoa1.nome)
 pessoa1.nome_vendedor() #Nome do objeto + metódo que vai ser chamado é a forma como eu chamo um metódo
 
+print(f"o nome da pessoa é {pessoa1.nome}")
