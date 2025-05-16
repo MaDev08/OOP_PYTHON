@@ -9,6 +9,10 @@ biblioteca_shopping = Biblioteca("Biblioteca do shopping")
 biblioteca_cidade.alterna_estado()
 biblioteca_shopping.alterna_estado()
 
+# Mostrando as avaliações
+biblioteca_cidade.receber_avaliacao('Jonas', 9.0)
+biblioteca_shopping.receber_avaliacao('Andrei', 10.0)
+
 def main():
     Biblioteca.listar_bibliotecas()
 
