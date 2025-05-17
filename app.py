@@ -11,6 +11,12 @@ revista1 = Revista('National Geographic', 'John Cuising', 67.0, 'Quinta')
 livro2 = Livro('Sapiens', 'Sigmund Lenhardt', 67.90, '123-9845')
 revista2 = Revista('Uol web', 'Alexandre Moreira', 15.99, 'Primeira')
 
+# Aplicar desconto
+livro1.aplicar_desconto()
+livro2.aplicar_desconto()
+revista1.aplicar_desconto()
+revista2.aplicar_desconto()
+
 biblioteca_cidade.adiconar_item(livro1)
 biblioteca_cidade.adiconar_item(revista1)
 # Alternando estados
