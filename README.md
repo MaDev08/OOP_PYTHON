@@ -46,7 +46,7 @@ Como Executar
 2. Certifique-se de ter o Python instalado
 
 
-3. Execute o arquivo principal (main.py ou equivalente)
+3. Execute o arquivo principal (app.py)
 
 
 
